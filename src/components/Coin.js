@@ -6,8 +6,8 @@ class Coin extends Component {
         return(
             <img 
             className={`Coin ${this.props.isFlipping && 'flipping'}`} 
-            src={this.props.face}
-            alt='Faction Coin' />
+            src={ this.props.info.imgSrc }
+            alt={ this.props.info.side } />
         );
     }
 }
