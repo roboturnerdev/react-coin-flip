@@ -1,0 +1,11 @@
+.Coinflip {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.Coinflip > button {
+    margin-top: 15px;
+}
