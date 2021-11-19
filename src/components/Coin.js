@@ -3,12 +3,7 @@ import './Coin.css';
 
 class Coin extends Component {
     render() {
-        return(
-            <img 
-            className={`Coin ${this.props.isFlipping && 'flipping'}`} 
-            src={ this.props.info.imgSrc }
-            alt={ this.props.info.side } />
-        );
+        return <img className='Coin' src={ this.props.info.imgSrc } alt={ this.props.info.side } />;
     }
 }
 
